@@ -1,0 +1,233 @@
+Microsoft Windows [Version 10.0.22631.3958]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\stuti>cd projects
+The system cannot find the path specified.
+
+C:\Users\stuti>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 9048-2C9E
+
+ Directory of C:\Users\stuti
+
+02-08-2024  00:08    <DIR>          .
+08-01-2023  19:32    <DIR>          ..
+18-11-2023  14:42               138 .bash_history
+08-07-2024  10:42    <DIR>          .config
+07-08-2024  21:23             5,419 .dbshell
+27-07-2023  12:32                57 .gitconfig
+27-07-2023  20:25                20 .lesshst
+01-08-2024  10:37                 0 .mongorc.js
+18-08-2023  14:08    <DIR>          .ms-ad
+10-07-2024  11:42               384 .node_repl_history
+27-07-2023  13:22    <DIR>          .vscode
+19-07-2023  19:24    <DIR>          aks
+06-12-2022  02:23    <DIR>          Contacts
+07-08-2024  23:03    <DIR>          Desktop
+08-06-2024  21:26    <DIR>          Documents
+01-08-2024  16:22    <DIR>          Downloads
+06-12-2022  02:23    <DIR>          Favorites
+13-12-2022  19:49                79 hello world.c
+06-12-2022  02:23    <DIR>          Links
+06-12-2022  02:23    <DIR>          Music
+07-08-2024  14:56    <DIR>          OneDrive
+08-04-2024  18:39    <DIR>          Pictures
+01-08-2024  16:22    <DIR>          Postman
+13-12-2022  19:51    <DIR>          raji
+06-12-2022  02:23    <DIR>          Saved Games
+06-12-2022  02:49    <DIR>          Searches
+07-12-2022  16:42    <DIR>          Videos
+               7 File(s)          6,097 bytes
+              20 Dir(s)  27,872,731,136 bytes free
+
+C:\Users\stuti>cd Desktop
+
+C:\Users\stuti\Desktop>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 9048-2C9E
+
+ Directory of C:\Users\stuti\Desktop
+
+07-08-2024  23:03    <DIR>          .
+02-08-2024  00:08    <DIR>          ..
+23-02-2024  12:25               913 .vscode - Shortcut.lnk
+18-09-2023  03:26           113,756 baghel.docx
+27-07-2023  20:19    <DIR>          CODE
+30-03-2023  15:08               956 CodeBlocks.lnk
+07-04-2024  23:13    <DIR>          DSA
+15-02-2024  15:43           366,399 editor.jpg
+25-07-2024  18:39             2,079 Google Docs.lnk
+25-07-2024  18:39             2,091 Google Sheets.lnk
+25-07-2024  18:39             2,091 Google Slides.lnk
+01-08-2024  22:10    <DIR>          mearnstack
+13-12-2022  19:07               886 MinGW Installer.lnk
+01-08-2024  10:01             2,354 MongoDBCompass.lnk
+08-06-2024  21:37             2,808 office2020.cmd
+01-08-2024  16:22             2,194 Postman.lnk
+10-07-2024  10:46    <DIR>          programs
+07-04-2024  20:26    <DIR>          PROJECTS
+10-04-2024  13:21    <DIR>          singh
+11-05-2024  11:34             6,498 test.c
+06-12-2022  15:52             1,411 Visual Studio Code.lnk
+06-12-2022  16:21             2,694 YouTube.lnk
+              14 File(s)        507,130 bytes
+               8 Dir(s)  27,872,731,136 bytes free
+
+C:\Users\stuti\Desktop> cd PROJECTS
+
+C:\Users\stuti\Desktop\PROJECTS>mkdir my_employee_module
+
+C:\Users\stuti\Desktop\PROJECTS>cd my_employee_module
+
+C:\Users\stuti\Desktop\PROJECTS\my_employee_module>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (my_employee_module)
+version: (1.0.0)
+description: A module to handle employee details
+entry point: (index.js)
+test command:
+git repository:
+keywords: employee details print
+author: stuti singh
+license: (ISC)
+About to write to C:\Users\stuti\Desktop\PROJECTS\my_employee_module\package.json:
+
+{
+  "name": "my_employee_module",
+  "version": "1.0.0",
+  "description": "A module to handle employee details",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "employee",
+    "details",
+    "print"
+  ],
+  "author": "stuti singh",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes) yes
+
+
+C:\Users\stuti\Desktop\PROJECTS\my_employee_module>touch README.md
+'touch' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\stuti\Desktop\PROJECTS\my_employee_module>npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (my_employee_module) npm warn init canceled
+
+
+C:\Users\stuti\Desktop\PROJECTS\my_employee_module>touch index.js
+'touch' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\stuti\Desktop\PROJECTS\my_employee_module>type NUL>index.js
+
+C:\Users\stuti\Desktop\PROJECTS\my_employee_module>New-Item -ItemType File i
+ndex.js
+'New-Item' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\stuti\Desktop\PROJECTS\my_employee_module>
+C:\Users\stuti\Desktop\PROJECTS\my_employee_module>echo. >index.js
+
+C:\Users\stuti\Desktop\PROJECTS\my_employee_module>notepad index.js
+
+C:\Users\stuti\Desktop\PROJECTS\my_employee_module>echo # My Employee Module
+ > README.md
+
+C:\Users\stuti\Desktop\PROJECTS\my_employee_module># My Employee Module
+'#' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\stuti\Desktop\PROJECTS\my_employee_module> My Employee Module
+'My' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\stuti\Desktop\PROJECTS\my_employee_module>echo node_module/> .gitig
+nore
+
+C:\Users\stuti\Desktop\PROJECTS\my_employee_module>npm login
+npm notice Log in on https://registry.npmjs.org/
+Login at:
+https://www.npmjs.com/login?next=/login/cli/51be8d60-136a-4baa-a1cd-e434fc6c8ad6
+Press ENTER to open in the browser...
+
+Logged in on https://registry.npmjs.org/.
+
+C:\Users\stuti\Desktop\PROJECTS\my_employee_module>npm publish
+npm notice
+npm notice package: my_employee_module@1.0.0
+npm notice Tarball Contents
+npm notice 23B README.md
+npm notice 436B index.js
+npm notice 324B package.json
+npm notice Tarball Details
+npm notice name: my_employee_module
+npm notice version: 1.0.0
+npm notice filename: my_employee_module-1.0.0.tgz
+npm notice package size: 526 B
+npm notice unpacked size: 783 B
+npm notice shasum: aec3fc9e7766fe6ae70d07ff439484c694c3ec73
+npm notice integrity: sha512-Zn6mvD2AFrsef[...]9q2EeZbgAnAYg==
+npm notice total files: 3
+npm notice
+npm notice Publishing to https://registry.npmjs.org/ with tag latest and default access
++ my_employee_module@1.0.0
+
+C:\Users\stuti\Desktop\PROJECTS\my_employee_module>npm search my_employee_mo
+dule
+my_employee_module
+A module to handle employee details
+Version 1.0.0 published 2024-08-07 by stutisingh
+Maintainers: stutisingh
+Keywords: employee details print
+https://npm.im/my_employee_module
+
+
+C:\Users\stuti\Desktop\PROJECTS\my_employee_module>npm info my_employee_modu
+le
+
+my_employee_module@1.0.0 | ISC | deps: none | versions: 1
+A module to handle employee details
+
+keywords: employee, details, print
+
+dist
+.tarball: https://registry.npmjs.org/my_employee_module/-/my_employee_module-1.0.0.tgz
+.shasum: aec3fc9e7766fe6ae70d07ff439484c694c3ec73
+.integrity: sha512-Zn6mvD2AFrsef5TBRg52A3wpxrZMaq7HBWZQTheDtK2khOBoDG4/Nl7GpD6vJhCCoQ72QpzRV9q2EeZbgAnAYg==
+.unpackedSize: 783 B
+
+maintainers:
+- stutisingh <stutisinghbaghel@gmail.com>
+
+dist-tags:
+latest: 1.0.0
+
+published 2 minutes ago by stutisingh <stutisinghbaghel@gmail.com>
+
+C:\Users\stuti\Desktop\PROJECTS\my_employee_module>
